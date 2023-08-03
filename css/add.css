@@ -1,0 +1,49 @@
+:root{
+--text: #000000;
+--background: #faf5ea;
+--darker: #f0e1c1;
+--primary: #a1dd62;
+--primary-hover:#8fd643;
+--secondary: #82b74b;
+--secondary-hover:#74a441;
+--accent: #8c6b3c;
+--accent-hover:#a17a45;
+}
+.main-colors{
+    background-color: var(--background);
+    color: var(--text);
+}
+.nav-colors{
+    background-color: var(--darker);
+    color: var(--text)
+}
+.custom-primary{
+    background-color: var(--primary);
+    color: var(--text);
+}
+.custom-secondary{
+    background-color: var(--secondary);
+    color: var(--text)
+}
+.custom-accent{
+    background-color: var(--accent);
+    color: #FFF;
+}
+.custom-primary:hover{
+    background-color: var(--primary-hover);
+    color: var(--text);
+}
+.custom-secondary:hover{
+    background-color: var(--secondary-hover);
+    color: var(--text)
+}
+.custom-accent:hover{
+    background-color: var(--accent-hover);
+    color: #FFF;
+}
+.c-disable{
+    background-color: darkgray;
+    cursor:default;
+    pointer-events: none;
+    text-decoration: none;
+}
